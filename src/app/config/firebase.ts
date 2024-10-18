@@ -1,10 +1,12 @@
 import { initializeApp } from "firebase/app";
 import 'firebase/firestore';
+import 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
+import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: "AIzaSyDZhlBJRqfhkKNa83HO5Huw-_G0izFaMP8",
   authDomain: "revents-2023-fe3fe.firebaseapp.com",
   projectId: "revents-2023-fe3fe",
   storageBucket: "revents-2023-fe3fe.appspot.com",
@@ -16,3 +18,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
+export const auth = getAuth(app);
