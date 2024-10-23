@@ -10,6 +10,7 @@ export default function Scratch() {
     return (
         <div>
             <h1>Scratch page</h1>
+            <h2>Test CI/CD #1</h2>
             <h3>The data is: {data}</h3>
             <Button onClick={() => dispatch(increment())} color='green' content='Increment' />
             <Button onClick={() => dispatch(decrement())} color='red' content='Decrement' />
