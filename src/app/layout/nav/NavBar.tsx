@@ -16,6 +16,8 @@ export default function NavBar() {
                 </MenuItem>
                 <MenuItem name='Events' as={NavLink} to='/events' />
                 <MenuItem name='Scratch' as={NavLink} to='/scratch' />
+                <MenuItem name='About' as={NavLink} to='/about' />
+
                 <MenuItem>
                     <Button
                         as={NavLink}

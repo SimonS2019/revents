@@ -8,6 +8,7 @@ import AccountPage from '../../features/auth/AccountPage';
 import ProfilePage from '../../features/profiles/ProfilePage';
 import RequireAuth from './RequireAuth';
 import UnauthComponent from '../layout/UnauthComponent';
+import About from '../../features/about/About';
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
             {path: '/events', element: <EventDashboard />},
             {path: '/events/:id', element: <EventDetailedPage />},
             {path: '/scratch', element: <Scratch />},
+            {path: '/about', element: <About />},
             {path: '/unauthorised', element: <UnauthComponent />},
         ]
     }
