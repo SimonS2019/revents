@@ -1,12 +1,10 @@
 # Build an App with React, Redux, and Firestore from Scratch
 
-This project is a web application created by following the instructions from Neil Cummings' course on Udemy, titled **"Build an App with React, Redux, and Firestore from Scratch."** The purpose of this project is to learn how to implement modern web development technologies like Firebase, React, and Redux.
+This project is a web application created by following Neil Cummings' course on Udemy, titled **"Build an App with React, Redux, and Firestore from Scratch."** The purpose of this project is to learn how to implement modern web development technologies like Firebase, React, and Redux.
 
 ## Project Overview
 
 This project is **not original content** but follows the step-by-step guidance of the instructor. It is intended to serve as a foundation for learning the implementation of Firebase with React and Redux.
-
-In the future, I plan to use this knowledge to build my own original applications with Firebase and Angular.
 
 ## Demo
 
@@ -32,5 +30,58 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
 
-   ```bash
-   git clone https://github.com/SimonS2019/revents
+    ```bash
+    git clone https://github.com/SimonS2019/revents
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```bash
+    cd revents
+    ```
+
+3. **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+To start the development server:
+
+    ```bash
+    npm start
+    ```
+
+## Deployment
+
+To deploy the application to Firebase, follow these steps:
+
+1. **Build the project**:
+
+    ```bash
+    npm run build
+    ```
+
+    This will create an optimized production build in the `build` folder.
+
+2. **Login to Firebase**:
+
+    ```bash
+    firebase login
+    ```
+
+    Ensure you have a Firebase account and the Firebase CLI installed.
+
+3. **Deploy to Firebase**:
+
+    ```bash
+    firebase deploy
+    ```
+
+Your web app should now be live on Firebase Hosting!
+
+## Contact
+
+Simon Shen - [shentiexiong@gmail.com](mailto:shentiexiong@gmail.com)
